@@ -1,0 +1,23 @@
+{
+  "name": "eleventy-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx @11ty/eleventy --serve",
+    "watch": "npx @11ty/eleventy --watch",
+    "build": "11TY-ENV-=production npx @11ty/eleventy",
+    "debug": "DEBUG=* npx @11ty/eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "alpinejs": "^3.12.2",
+    "js-yaml": "^4.1.0"
+  },
+  "dependencies": {
+    "netlify-cms-app": "^2.15.72"
+  }
+}
