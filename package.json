@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "npx @11ty/eleventy --serve",
     "watch": "npx @11ty/eleventy --watch",
-    "build": "11TY-ENV-=production npx @11ty/eleventy",
+    "build": "npx @11ty/eleventy",
     "debug": "DEBUG=* npx @11ty/eleventy --serve"
   },
   "keywords": [],
